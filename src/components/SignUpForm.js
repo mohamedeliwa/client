@@ -5,6 +5,18 @@ import '../styles/SignInUpForm.scss'
 export default () => (
     <Container className="sign-in-container">
         <Form className="sign-in">
+
+            <Form.Group controlId="formBasicFirstName">
+                <Form.Label>First Name</Form.Label>
+                <Form.Control type="text" placeholder="Enter your first name " />
+            </Form.Group>
+
+            <Form.Group controlId="formBasicLastName">
+                <Form.Label>Last Name</Form.Label>
+                <Form.Control type="text" placeholder="Enter your last name " />
+            </Form.Group>
+            
+
             <Form.Group controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email" />
@@ -17,14 +29,16 @@ export default () => (
                 <Form.Label>Password</Form.Label>
                 <Form.Control type="password" placeholder="Password" />
             </Form.Group>
-            <Form.Group controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Remember me" />
+            <Form.Group controlId="formBasicPasswordRewrite">
+                <Form.Label>Rewrite password</Form.Label>
+                <Form.Control type="password" placeholder="Rewrite password" />
             </Form.Group>
+
             <Button variant="success" type="submit">
-                Submit
+                Sing Up
             </Button>
             <Form.Text className="text-muted">
-                Not a member?. <a href="#">Sign Up</a>
+                Already a member?. <a href="#">Sign in</a>
             </Form.Text>
         </Form>
     </Container>
