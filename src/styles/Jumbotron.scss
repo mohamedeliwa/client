@@ -1,0 +1,18 @@
+.jumbotron{
+    text-align: center;
+    background-color: #fff;
+    .header-col{
+       // background-color: lightgrey;
+        padding-top: 10rem;
+        text-align: left;
+        button{
+            margin: 0.1rem;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .header-col {
+            padding-top: 0rem;
+            text-align: center;
+        }
+      }
+}
