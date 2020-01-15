@@ -1,10 +1,10 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Welcome from './pages/Welcome';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Welcome from "./pages/Welcome";
 function App() {
   return (
     <div className="App">
-      <Welcome/>
+      <Welcome />
     </div>
   );
 }
