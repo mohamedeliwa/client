@@ -1,0 +1,59 @@
+.welcome {
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+
+  .navbar {
+    text-align: center;
+    // background-color: lightblue;
+    // the last number specifies the transparency degree of the background color
+    background-color: rgba(248, 248, 248, 0.95); //#f8f8f8;
+    padding-top: 0;
+    .container {
+      // background-color: rgba(248, 248, 248, 0.85);//#f8f8f8;
+      padding: 0.7rem;
+      border-radius: 0.3rem;
+    }
+    button {
+      margin: 0.4rem;
+    }
+  }
+  .introduction {
+    text-align: center;
+    background-color: #fff;
+    .header-col {
+      // background-color: lightgrey;
+      padding-top: 10rem;
+      text-align: left;
+      button {
+        margin: 0.1rem;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .header-col {
+        padding-top: 0rem;
+        text-align: center;
+      }
+    }
+  }
+  .numbers {
+    .numberCard {
+      background-color: #e9ecef;
+      border-color: #e9ecef;
+      color: #000;
+    }
+  }
+  .steps {
+    text-align: center;
+    .stepsHeader {
+      font-size: 2rem;
+      font-weight: bolder;
+    }
+    table {
+      border: none;
+      text-align: left;
+      .card {
+        border: none;
+      }
+    }
+  }
+}
