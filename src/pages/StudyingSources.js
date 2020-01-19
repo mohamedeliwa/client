@@ -1,8 +1,13 @@
 import React from 'react'
+import Container  from "react-bootstrap/Container";
+import NavBar from "../components/Navbar";
 
 const StudyingSources = () => {
     return(
-        <h1>StudyingSources</h1>
+        <Container style={{paddingTop: "10rem"}}>
+            <NavBar />
+            <h1>Studying Sources</h1>
+        </Container>
     )
 }
 
