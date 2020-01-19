@@ -1,26 +1,26 @@
 import React, {useState} from 'react';
 import {Navbar, Nav, NavDropdown, Form, FormControl, Button, Container} from 'react-bootstrap'
 import '../styles/Navbar.scss';
-
+import { Link } from "react-router-dom";
 
 export default () => {
     //const [expanded, setExpanded] = useState(false)
     return(
         <Navbar className="navbar" expand="lg" variant="light" fixed="top" collapseOnSelect >
             <Container>
-                <Navbar.Brand href="#home">Student Medium</Navbar.Brand>
+                <Navbar.Brand as={ Link } to="/">Student Medium</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="#home">Curricula</Nav.Link>
-                        <Nav.Link href="#studying_sources">Studying sources</Nav.Link>
-                        <Nav.Link href="#student_activities">Student activites</Nav.Link>
-                        <Nav.Link href="#shop">Shop</Nav.Link>
+                        <Nav.Link as={ Link } to="/curricula">Curricula</Nav.Link>
+                        <Nav.Link as={ Link } to="/studyingsources">Studying sources</Nav.Link>
+                        <Nav.Link as={ Link } to="/studentactivities">Student activites</Nav.Link>
+                        <Nav.Link as={ Link } to="/shop">Shop</Nav.Link>
                         <NavDropdown title="More.." id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#contribute">How to contribute</NavDropdown.Item>
+                            <NavDropdown.Item as={ Link } to="/contribute">How to contribute</NavDropdown.Item>
                             <NavDropdown.Item href="#about_sm">About SM</NavDropdown.Item>
                             <NavDropdown.Divider />
-                            <NavDropdown.Item href="#contact">Contact us</NavDropdown.Item>
+                            <NavDropdown.Item as={ Link } to="/contact">Contact us</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     
