@@ -1,18 +1,13 @@
 import React from 'react'
 import { Container, Form, Button, Badge, Row, Col } from 'react-bootstrap';
-
+import NavBar from "../components/Navbar";
 
 const Contact = () => {
     return(
-       <Container>
-           <Container style={{
-               textAlign: "center",
-               backgroundColor: "lightgrey",
-               marginBottom: "3rem"
-           }}>
-               <h1>NavBar is Here</h1>
-               <h1>COVER is HERE</h1>
-           </Container>
+       <Container style={{
+           paddingTop: "15rem"
+       }}>
+           <NavBar />
            <Container style={{
                maxWidth: "55rem",
                padding: "1rem",

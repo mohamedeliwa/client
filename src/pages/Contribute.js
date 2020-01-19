@@ -1,15 +1,11 @@
 import React from 'react'
-import { Container, Card } from "react-bootstrap"
+import { Container, Card } from "react-bootstrap";
+import NavBar from "../components/Navbar";
+
 const Contribute = () => {
     return(
-        <Container >
-            <Container style={{
-                textAlign: "center",
-                backgroundColor: "lightgrey"
-            }}>
-                <h1>The NavBar is Here</h1>
-                <h1>The Cover is Here</h1>
-            </Container>
+        <Container style={{ paddingTop: "15rem" }}>
+            <NavBar />
             <Container style={{
                boxShadow: "10px 10px 5px lightgrey",
                maxWidth: "50rem",
