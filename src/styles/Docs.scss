@@ -1,0 +1,32 @@
+.Docs {
+ .menu{
+  @media screen and (min-width: 450px) {
+   
+    &::-webkit-scrollbar {
+      width: 0.3rem;
+    }
+  
+    &::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+      outline: 1px solid slategrey;
+    }
+  }
+  @media screen and (max-width: 450px){
+    width: 85vw;
+    .dropdown-item{
+      font-size: 0.8rem;
+    }
+  }
+}
+  article {
+    padding-top: 4rem;
+    h2 {
+      padding-top: 6rem;
+    }
+  }
+}
