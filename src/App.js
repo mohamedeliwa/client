@@ -19,31 +19,31 @@ function App() {
           <Route exact path="/">
             <Welcome />
           </Route>
-          <Route exact path="/signup">
+          <Route path="/signup">
             <SignUp />
           </Route>
-          <Route exact path="/signin">
+          <Route path="/signin">
             <SignIn />
           </Route>
-          <Route exact path="/home">
+          <Route path="/home">
             <Home />
           </Route>
-          <Route exact path="/curricula">
+          <Route path="/curricula">
             <Curricula />
           </Route>
-          <Route exact path="/studyingsources">
+          <Route path="/studyingsources">
             <StudyingSources />
           </Route>
-          <Route exact path="/studentactivities">
+          <Route path="/studentactivities">
             <StudentActivities />
           </Route>
-          <Route exact path="/shop">
+          <Route path="/shop">
             <Shop />
           </Route>
-          <Route exact path="/contribute">
+          <Route path="/contribute">
             <Contribute />
           </Route>
-          <Route exact path="/contact">
+          <Route path="/contact">
             <Contact />
           </Route>
         </Switch>
