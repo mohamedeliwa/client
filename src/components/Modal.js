@@ -10,8 +10,8 @@ const handleShow = () => setShow(true);
 
 return (
     <div>
-      <Button variant="primary" onClick={handleShow}>
-        Launch demo modal
+      <Button variant="outline-success" onClick={handleShow} className="nav-button">
+        {props.buttonText}
       </Button>
 
       <Modal show={show} onHide={handleClose}>

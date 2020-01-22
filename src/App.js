@@ -6,8 +6,7 @@ import SignIn from './pages/SignIn';
 import Home from './pages/Home';
 import Curricula from "./pages/Curricula";
 import StudyingSources from './pages/StudyingSources';
-import StudentActivities from "./pages/StudentActivities";
-import Shop from "./pages/Shop";
+import Blog from "./pages/Blog";
 import Contribute from "./pages/Contribute";
 import Contact from './pages/Contact'; 
 import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
@@ -34,11 +33,8 @@ function App() {
           <Route path="/studyingsources">
             <StudyingSources />
           </Route>
-          <Route path="/studentactivities">
-            <StudentActivities />
-          </Route>
-          <Route path="/shop">
-            <Shop />
+          <Route path="/blog">
+            <Blog />
           </Route>
           <Route path="/contribute">
             <Contribute />

@@ -2,13 +2,13 @@ import React from 'react'
 import Container  from "react-bootstrap/Container";
 import NavBar from "../components/Navbar";
 
-const StudentActivities = () => {
+const Blog = () => {
     return(
         <Container style={{paddingTop: "10rem"}}>
             <NavBar />
-            <h1>Student Activities</h1>
+            <h1>Blog</h1>
         </Container>
     )
 }
 
-export default StudentActivities;
+export default Blog;

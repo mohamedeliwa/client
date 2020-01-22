@@ -14,8 +14,7 @@ export default () => {
                     <Nav className="mr-auto">
                         <Nav.Link as={ Link } to="/curricula">Curricula</Nav.Link>
                         <Nav.Link as={ Link } to="/studyingsources">Studying sources</Nav.Link>
-                        <Nav.Link as={ Link } to="/studentactivities">Student activites</Nav.Link>
-                        <Nav.Link as={ Link } to="/shop">Shop</Nav.Link>
+                        <Nav.Link as={ Link } to="/blog">Blog</Nav.Link>
                         <NavDropdown title="More.." id="basic-nav-dropdown">
                             <NavDropdown.Item as={ Link } to="/contribute">How to contribute</NavDropdown.Item>
                             <NavDropdown.Item href="#about_sm">About SM</NavDropdown.Item>
