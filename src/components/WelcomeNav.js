@@ -1,7 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import Modal from "./Modal";
+import SignInForm from "./SignInForm";
 import { Navbar, Nav, Button, Container } from "react-bootstrap";
-import { Link } from 'react-router-dom';
-export default () => {
+import { Link} from 'react-router-dom';
+
+export default (props) => {
+
   return (
     <Navbar
       className="navbar"
@@ -15,10 +19,10 @@ export default () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav>
-            <Nav.Link as={ Link } to="/signin">Sign In</Nav.Link>
-            <Nav.Link as={ Link } to="/signup">Sign Up</Nav.Link>
-            <Button variant="outline-success">Sing in</Button>
-            <Button variant="success">Sing Up</Button>
+            <Button className="nav-button"variant="success" onClick={props.redirection}>Sign Up</Button>
+            <Modal  buttonText={"Sign in"}> 
+              <SignInForm />
+            </Modal>
           </Nav>
         </Navbar.Collapse>
       </Container>

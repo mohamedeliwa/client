@@ -4,14 +4,24 @@ import WelcomeHeader from "../components/WelcomeHeader";
 import WelcomeNumbers from "../components/WelcomeNumbers";
 import WelcomeSteps from "../components/WelcomeSteps";
 import { Container } from "react-bootstrap";
+import { useHistory } from 'react-router-dom';
+
 import "../styles/Welcome.scss";
 
 const Welcome = () => {
+
+  let history = useHistory();
+
+  const handleRedirection = (e) => {
+    e.preventDefault();
+    history.push('/signup')
+  }
+
   return (
     <Container className="welcome">
-      <WelcomeNav />
+      <WelcomeNav redirection={handleRedirection}/>
       <br />
-      <WelcomeHeader />
+      <WelcomeHeader redirection={handleRedirection}/>
       <br />
       <WelcomeNumbers />
       <br />
