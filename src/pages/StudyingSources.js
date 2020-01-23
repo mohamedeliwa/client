@@ -9,7 +9,7 @@ import { Route, Switch, useRouteMatch } from "react-router-dom"
 const StudyingSources = () => {
     let match = useRouteMatch()
     return (
-        <Container style={{ paddingTop: "10rem" }}>
+        <Container style={{ paddingTop: "10rem",minHeight:"90vh" }}>
             <NavBar />
             <Switch>
                 <Route  exact path={`${match.path}`} >

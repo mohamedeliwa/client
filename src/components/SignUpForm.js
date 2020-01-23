@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Form, Container } from 'react-bootstrap';
 import '../styles/SignInUpForm.scss'
-
+import {Link} from 'react-router-dom'
 export default () => (
     <Container className="sign-in-container">
         <Form className="sign-in">
@@ -38,7 +38,7 @@ export default () => (
                 Sing Up
             </Button>
             <Form.Text className="text-muted">
-                Already a member?. <a href="#">Sign in</a>
+                Already a member?. <Link to="/signin">Sign in</Link>
             </Form.Text>
         </Form>
     </Container>

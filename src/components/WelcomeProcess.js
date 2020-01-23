@@ -1,5 +1,5 @@
 import React from 'react'
-// import download from '../../assets/img/download.png'
+import download from '../assets/download.png'
 
 export default function theProcess() {
 
@@ -7,7 +7,7 @@ export default function theProcess() {
         <div className="theProcess">
             <div className="processSteps">
                 <div className="processStepsImg">
-                    {/* <img src={download} alt="formIcon" /> */}
+                    <img src={download} alt="formIcon" />
                 </div>
 
                 <div className="processStepsText">
@@ -18,7 +18,7 @@ export default function theProcess() {
 
             <div className="processSteps">
                 <div className="processStepsImg">
-                    {/* <img src={download} alt="formIcon" /> */}
+                    <img src={download} alt="formIcon" />
                 </div>
 
                 <div className="processStepsText">
@@ -28,7 +28,7 @@ export default function theProcess() {
             </div>
             <div className="processSteps">
                 <div className="processStepsImg">
-                    {/* <img src={download} alt="formIcon" /> */}
+                    <img src={download} alt="formIcon" />
                 </div>
 
                 <div className="processStepsText">
@@ -38,7 +38,7 @@ export default function theProcess() {
             </div>
             <div className="processSteps">
                 <div className="processStepsImg">
-                    {/* <img src={download} alt="formIcon" /> */}
+                    <img src={download} alt="formIcon" />
                 </div>
 
                 <div className="processStepsText">

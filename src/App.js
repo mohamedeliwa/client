@@ -10,6 +10,7 @@ import Blog from "./pages/Blog";
 import Contribute from "./pages/Contribute";
 import Contact from './pages/Contact'; 
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import  Footer  from "./components/Footer";
 function App() {
   return (
     <div className="App">
@@ -44,6 +45,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

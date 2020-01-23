@@ -63,3 +63,29 @@ $dark-pri: #59a845;
     transform: translate(3px);
   }
 }
+.books-card{
+  min-width: 20rem;
+  cursor: pointer;
+  margin: .5rem ;
+  
+.overlay-text{
+  background-color:rgba(248, 248, 248, 0.5) ;
+  padding: .3rem;
+  border-radius: 5px;
+  }
+}
+
+@media  (max-width: 1185px) {
+  .card-columns {
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+}
+@media  (max-width: 770px) {
+  .card-columns {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+  }
+}

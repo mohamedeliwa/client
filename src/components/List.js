@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Card, ListGroupItem, ListGroup } from 'react-bootstrap'
+import { Container, Card, ListGroup } from 'react-bootstrap'
 import { FaAngleRight } from "react-icons/fa";
 import '../styles/List.scss'
 import { Link, useRouteMatch } from 'react-router-dom';
 export default function List() {
   let match =useRouteMatch()
   return (
-    <Container className="justify-content-center">
+    <Container className="justify-content-center" >
 
       <Card className="items">
         <Card.Body>

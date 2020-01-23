@@ -4,7 +4,7 @@ import NavBar from "../components/Navbar";
 
 const Contribute = () => {
     return(
-        <Container style={{ paddingTop: "15rem" }}>
+        <Container style={{ paddingTop: "15rem",minHeight:"90vh" }}>
             <NavBar />
             <Container style={{
                boxShadow: "10px 10px 5px lightgrey",
