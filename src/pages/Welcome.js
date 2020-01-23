@@ -2,9 +2,10 @@ import React from "react";
 import WelcomeNav from "../components/WelcomeNav";
 import WelcomeHeader from "../components/WelcomeHeader";
 import WelcomeNumbers from "../components/WelcomeNumbers";
-import WelcomeSteps from "../components/WelcomeSteps";
+import WelcomeProcess from "../components/WelcomeProcess";
 import { Container } from "react-bootstrap";
 import { useHistory } from 'react-router-dom';
+import Footer from '../components/footer'
 
 import "../styles/Welcome.scss";
 
@@ -25,7 +26,8 @@ const Welcome = () => {
       <br />
       <WelcomeNumbers />
       <br />
-      <WelcomeSteps />
+      <WelcomeProcess />
+      <Footer/>
     </Container>
   );
 };

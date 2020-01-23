@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/Index.scss";
 import Container from "react-bootstrap/Container";
 import { Link, useRouteMatch } from 'react-router-dom'
-const indexlayout = (<h1>Bb</h1>);
+// const indexlayout = (<h1>Bb</h1>);
 const Index = () => {
     let match = useRouteMatch();
     return (

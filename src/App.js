@@ -9,7 +9,7 @@ import StudyingSources from './pages/StudyingSources';
 import Blog from "./pages/Blog";
 import Contribute from "./pages/Contribute";
 import Contact from './pages/Contact'; 
-import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
