@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Navbar, Dropdown, DropdownButton } from "react-bootstrap";
+import { Container, Dropdown } from "react-bootstrap";
 import "../styles/Docs.scss"
 const Docs = () => {
   return (

@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button, Container} from 'react-bootstrap'
+import React from 'react';
+import {Navbar, Nav, NavDropdown, Container} from 'react-bootstrap'
 import '../styles/Navbar.scss';
 import { Link } from "react-router-dom";
 

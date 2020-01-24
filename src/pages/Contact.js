@@ -5,7 +5,8 @@ import NavBar from "../components/Navbar";
 const Contact = () => {
     return(
        <Container style={{
-           paddingTop: "15rem"
+           paddingTop: "15rem",
+           minHeight:"90vh"
        }}>
            <NavBar />
            <Container style={{
