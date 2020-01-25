@@ -3,10 +3,8 @@ import app from "../assets/app.jpg";
 import { Row, Container, Col, Image } from "react-bootstrap";
 import { FaLinkedinIn,FaFacebookF,FaTwitter,FaGithub,FaAndroid,FaAppStoreIos } from "react-icons/fa";
 import "../styles/Footer.scss";
-export default function footer() {
-  function shoot() {
-    alert("Great !");
-  }
+
+const Footer = () => { 
   return (
     <Container className="footer " fluid>
       <Row>
@@ -28,7 +26,7 @@ export default function footer() {
           © 2020 MetaTech. All Rights Reserved.
         </Col>
         <Col style={{ fontSize: "0.9rem" }}>
-        <FaLinkedinIn  className="social" size="20" onClick={shoot}/>
+        <FaLinkedinIn  className="social" size="20"/>
           <FaFacebookF  className="social" size="20"/>
           <FaGithub className="social" size="20"/>
           <FaAndroid className="social" size="20"/>
@@ -38,3 +36,5 @@ export default function footer() {
     </Container>
   );
 }
+
+export default  Footer;

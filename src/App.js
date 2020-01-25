@@ -9,9 +9,12 @@ import StudyingSources from './pages/StudyingSources';
 import Blog from "./pages/Blog";
 import Contribute from "./pages/Contribute";
 import Contact from './pages/Contact'; 
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import PageNotFound from "./pages/404.js";
+import { BrowserRouter as Router, Switch, Route, useLocation} from 'react-router-dom';
 import  Footer  from "./components/Footer";
 function App() {
+  // for conditional redering of footer
+  // let location = useLocation();
   return (
     <div className="App">
       <Router>
@@ -42,6 +45,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/pagenotfound">
+            <PageNotFound />
           </Route>
         </Switch>
       </Router>
