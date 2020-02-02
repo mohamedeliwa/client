@@ -12,7 +12,7 @@ const PageNotFound = () => {
 
         <h1>
           404:
-          <small>Players Not Found</small>
+          <small>Page Not Found</small>
         </h1>
       </div>
     </Container>
