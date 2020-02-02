@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import  "../styles/404.scss";
 const PageNotFound = () => {
   return (
-    <Container>
+    <Container className="not-found-page">
       <div class="site">
         <div class="sketch">
           <div class="bee-sketch red"></div>
